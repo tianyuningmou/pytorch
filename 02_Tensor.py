@@ -3,7 +3,7 @@
 """
 Copyright () 2018
 
-All rights reserved by easyto
+All rights reserved by tianyuningmou
 
 FILE:  02_Tensor.py
 AUTHOR:  tianyuningmou
