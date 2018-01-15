@@ -32,7 +32,6 @@ b = a.numpy()
 
 # from numpy turn to pytorch
 
-
 # print(x, '\n', y, '\n', x.size(), '\n', y+z)
 # print(torch.add(y, z), '\n', y.add_(z))
 print(a, '\n', b)
