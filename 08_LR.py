@@ -42,6 +42,7 @@ plt.show()
 x_train = torch.from_numpy(x_train)
 y_train = torch.from_numpy(y_train)
 
+
 # 定义一维线性回归模型
 class LinearRegression(nn.Module):
     def __init__(self):
@@ -51,6 +52,7 @@ class LinearRegression(nn.Module):
     def forward(self, x):
         out = self.linear(x)
         return out
+
 
 model = LinearRegression()
 criterion = nn.MSELoss()
